@@ -1,0 +1,119 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  position:fixed;
+  z-index:1;
+  top:0;
+  width:100%;
+  background-color:gray;
+}
+li {
+    float:left;
+}
+li a{
+  display:block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:25pt;
+
+}
+li a:hover{
+  background-color: #111;
+}
+
+img{
+  padding-bottom:3%;
+}
+body{
+	font-family: 'Merienda'; font-size: 20px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  top:100%;
+}
+
+.header{
+  text-align: center;
+  background-color:#DFDFDF;
+  height:210px;
+  width:30%;
+  position: absolute;
+  top:22%;
+  left:35%;
+}
+
+.container{
+  height: 2050px;
+  width:85%;
+  background-color:#FFF0D8;
+  border:2px solid gray;
+  top:400%;
+  margin-left:100px;
+  margin-bottom:50px;
+}
+
+#pic1{
+  height:456px;
+  width:52%;
+  background-color:white;
+  border:6px;
+  position:absolute;
+  top:98%;
+  left:24%;
+}
+#pic2{
+  height:456px;
+  width:52%;
+  background-color:white;
+  border:6px;
+  position:absolute;
+  top:175%;
+  left:24%;
+}
+
+#pic3{
+  height:372px;
+  width:31%;
+  background-color:white;
+  border:6px;
+  position:absolute;
+  top:260%;
+  left:17%;
+}
+#pic4{
+  height:395px;  width:31%;  background-color:white;  border:6px;
+  position:absolute;  top:260%;  left:54%;
+}
+
+#pic5{
+  height:409px;
+  width:31%;
+  background-color:white;border:6px;
+  position:absolute;top:329%;left:54%;
+}
+#pic6{
+  height:401px;
+  width:31%;
+  background-color:white;border:6px;
+  position:absolute;top:330%;left:17%;
+}
+
+.about{
+  height:400px;
+  width:52%;
+  background-color:gray;
+  border:6px;
+  position:absolute;
+  top:60%;
+  left:24%;
+  margin-bottom:50px;
+}
